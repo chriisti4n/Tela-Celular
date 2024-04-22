@@ -1,0 +1,124 @@
+* {
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body html {
+    height: 100%;
+}
+
+body {
+    font-family: Red Rose, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.conteiner01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.conteiner02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: self-start;
+    margin-top: -16%;
+    margin-left: 20%;
+
+
+}
+
+
+h1 {
+    width: 520px;
+    height: 96px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+}
+
+p {
+    width: 520px;
+    height: 130px;
+    top: 112px;
+    color: #6F7CB2;
+}
+
+.imgcelular {
+    width: 325px;
+    height: auto;
+    float: right;
+    margin-right: 10%;
+    margin-top: 0;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50%;
+    margin-left: -17%;
+    gap: 3%;
+
+
+}
+
+.button {
+    width: 190px;
+    height: 26px;
+    top: 7px;
+    gap: 0px;
+    opacity: 0px;
+    list-style: Medium 16;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #111B47;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.button2 {
+    width: 190px;
+    height: 26px;
+    top: 7px;
+    gap: 0px;
+    opacity: 0px;
+    list-style: Medium 16;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #111B47;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.botoes :hover {
+    width: 190px;
+    height: 26px;
+    top: 7px;
+    gap: 0px;
+    opacity: 0px;
+    list-style: Medium 16;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    background: #111B47;
+}
